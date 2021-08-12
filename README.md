@@ -20,25 +20,17 @@ pip install PyYouTube
 ```python
 from pyyoutube import Data
 yt = Data("https://youtu.be/HhHzCfrqsoE")
-print(yt.data)
-```
-<details>
-  <summary><b>Example Results</summary>
-<br/>
 
-```json
-{
-  "id": "HhHzCfrqsoE",
-  "title": "How To Create MongoDB Database  Url",
-  "thumbnails": "https://i.ytimg.com/vi/HhHzCfrqsoE/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==\\u0026rs=AOn4CLBOkJZAdEpYxQOVdaUxFHdbThH_DQ",
-  "views": "91",
-  "likes": "11",
-  "dislikes": "No",
-  "publishdate": "2021-08-04",
-  "category": "Howto \\u0026 Style",
-  "channel_name": "Ln Technical",
-  "subscriber": "1.15K subscribers"
-}
+id = yt.id
+title = yt.title
+thumbnails = yt.thumbnails
+views = yt.views
+likes = yt.likes
+dislikes = yt.dislikes
+publishdate = yt.publishdate
+category = yt.category
+channel_name = yt.channel_name
+subscriber = yt.subscriber
 ```
 
 </details>
